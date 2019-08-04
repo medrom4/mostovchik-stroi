@@ -1345,7 +1345,7 @@ h5,
 }
 
 .footer-section {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 
 .footer-section p {
@@ -1412,7 +1412,27 @@ h5,
   .service {
     padding: 2rem;
   }
+
+  .section-1 {
+    margin-top: 0rem;
+  }
 }
+
+@media (max-width: 768.98px) {
+  .align-items-start-2 {
+    margin-bottom: 3rem !important;
+  }
+
+  .section-1 {
+    margin-top: 0rem;
+  }
+
+  .foto-sviaz {
+    display: none;
+  }
+
+}
+
 
 .service .custom-icon-wrap {
   width: 80px;
@@ -1493,7 +1513,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .custom-owl-carousel .col-lg-5 {
-    margin-top: 40%;
+    margin-top: 0%;
   }
 }
 

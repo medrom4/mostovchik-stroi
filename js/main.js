@@ -65,7 +65,7 @@
  			}
  		})
 
- 		$('body').on('click', ".js-menu-toggle, .main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function (e) {
+ 		$('body').on('click', ".js-menu-toggle, .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function (e) {
  			var $this = $(this);
  			e.preventDefault();
 
@@ -298,7 +298,7 @@
  	var OnePageNavigation = function () {
  		var navToggler = $('.site-menu-toggle');
  		$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function (e) {
-			 e.preventDefault();
+ 			e.preventDefault();
 
  			var hash = this.hash;
 
@@ -306,7 +306,7 @@
  				'scrollTop': $(hash).offset().top
  			}, 800, 'easeInOutCirc', function () {
  				window.location.hash = hash;
- 			}); 			
+ 			});
 
  		});
 

@@ -65,7 +65,7 @@
  			}
  		})
 
- 		$('body').on('click', ".js-menu-toggle, .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a[href^='#']", function (e) {
+ 		$('body').on('click', ".js-menu-toggle, .site-mobile-menu .site-nav-wrap li a[href^='#']", function (e) {
  			var $this = $(this);
  			e.preventDefault();
 
